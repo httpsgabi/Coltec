@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(../../landing-page-package-midia/backgound.jpg);
+}
+
+nav{
+    background-color: #14161A
+}
+
+.integrantes {
+    display: grid;
+    height: 100vh;
+    margin-left: 2%;
+    margin-right: 2%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.integrantes .integrante {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.integrantes .integrante .icones_redes a img{
+    width: 50px;
+}
+
+.integrantes .integrante .foto_integrante img{
+    height: 250px;
+    border-radius: 25%; 
+    border: 5px solid white;
+    box-shadow: 10px 10px 10px black;
+}
+
+.integrantes .integrante .nome{
+    margin-left: 25%;
+}
+
+.tamanho_imagem{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.tamanho_icon_redes > a{
+    width: 20px;
+    height: 20px;
+}
+.d-flex{
+    /* Por algum motivo que só DEUS sabe, apenas quando o align-items está na mesma
+        class que o display: flex, funciona!
+
+        Estou codando a 20 minutos, no início só eu e Deus sabiamos o que estava escrito aqui
+        Agora apenas Deus sabe.
+        --total-horas-gastas-aqui--: 0.37
+    */
+    align-items: flex-start;
+}
+.div-svg-white > svg{
+    fill: white;
+}
+
+footer{
+    background-color: black;
+}
+
+/*Animações*/
+.titulo {
+    opacity: 1;
+    animation-name: fade-in;
+    animation-duration: 2s;
+    
+}
+
+@keyframes fade-in {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+}
+
+  /*Footer*/
+
+footer{
+    background-color: black;
+ }
