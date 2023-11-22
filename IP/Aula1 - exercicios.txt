@@ -72,7 +72,7 @@ Início
 	
 	imprime:(numerador);
 	leia:(numerador);
-	imprime:(denominador;
+	imprime:(denominador);
 	leia:(denominador);
 	
 	numerodecimal = numerador * 1 / denominador;

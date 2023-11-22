@@ -173,5 +173,5 @@ int main(int argc, char** argv) {
 		break;
 	}
 
-	return SUCESSO:
+	return SUCESSO;
 }
