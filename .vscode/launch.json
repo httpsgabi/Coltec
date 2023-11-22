@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/gabri/OneDrive/Documentos/GitHub/Coltec/IP",
+      "program": "c:/Users/gabri/OneDrive/Documentos/GitHub/Coltec/IP/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
