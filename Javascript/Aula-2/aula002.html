@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste</h1>
+
+    <script>
+    
+    let tipo_combustivel = 1;
+    let preco_gasolina = 7; //7 reais o litro
+    let preco_diesel = 5; //5 reais o litro
+    let gasto_medio_carro = 3; //2L por km
+    let distancia = 100; //100 km
+    let total_viagem;
+
+    if(tipo_combustivel === 0){
+        let total_viagem = (distancia / gasto_medio_carro) * preco_gasolina;
+    }
+    else if(tipo_combustivel === 1){
+        let total_viagem = (distancia / gasto_medio_carro) * preco_diesel;
+    }
+    else{
+        window.alert('Tipo de combustivel invalido');
+    }
+    
+    window.alert(total_viagem.toFixed(2));
+
+    </script>
+</body>
+</html>
