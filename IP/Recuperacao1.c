@@ -79,24 +79,6 @@ int main(int agrc, char** argv) {
 		t1 = 1.500000
 	Pois, como dito antes, o compilador apenas atribui o primeiro valor.
 
-	======================================================================
-	Nesse caso, para reduzir a quantidade de if-elses, vc pode usar a estrutura switch-case
-	switch (escolhido)
-	{
-		case 0:
-			precoAtual = 0;
-			printf("O valor final eh %f\n", precoFinal);
-		break;
-
-		case 1:
-			precoAtual = 2.00;
-		break;
-
-		default:
-			printf("NUMERO INVALIDO, DIGITE NOVAMENTE \n");
-		break;
-		....
-	}
 	*/
 
 	if (escolhido == 0) 
@@ -104,9 +86,9 @@ int main(int agrc, char** argv) {
 		precoAtual += 0; 
 		printf("O valor final eh %f\n", precoFinal);
 	}
-	else if (escolhido == 1) // troca do '1' por apenas 1
+	else if (escolhido == 1) 
 	{
-		precoAtual += 2; // dessa forma, a operação feita foi -> precoAtual = precoAtual + 2;
+		precoAtual += 2; 
 	}
 	else if (escolhido == 2) 
 	{
@@ -211,8 +193,6 @@ int main(int agrc, char** argv) {
 	else{
 		printf("O valor a ser pago eh de: %f", total);
 	}
-
-	// E se o usuário digitar um caracter que não seja nem C nem D?
 
 	return SUCESSO;
 }
